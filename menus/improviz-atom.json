@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Send to Improviz",
+        "command": "improviz-atom:send"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Improviz",
+          "submenu": [
+            {
+              "label": "Send",
+              "command": "improviz-atom:send"
+            },
+            {
+              "label": "Toggle Text",
+              "command": "improviz-atom:toggle-text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

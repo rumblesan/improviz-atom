@@ -1,5 +1,7 @@
 {
-  "atom-workspace": {
+  "atom-workspace atom-text-editor[data-grammar~='improviz']": {
+    "shift-enter": "improviz-atom:send",
+    "cmd-enter": "improviz-atom:send",
     "ctrl-enter": "improviz-atom:send"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "improviz-atom",
+  "name": "improviz",
   "main": "./lib/improviz-atom",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "An atom plugin for using improviz",
   "keywords": [
   ],

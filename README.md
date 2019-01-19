@@ -1,11 +1,27 @@
 # Improviz Atom package
 
-Allows interacting with Improviz
+Allows interacting with [Improviz](https://github.com/rumblesan/improviz) by sending it code to run.
 
-Very quick and dirty.
+## Functionality
 
-Currently only allows sending programs to run and toggling text display.
+Currently only allows sending code and toggling text display.
 
-`Ctrl-Enter` to send the entire buffer to improviz.
+To send the entire buffer to Improviz.
 
-Use menu otherwise.
+* `Ctrl-Enter`
+* `Shift-Enter`
+* `Cmd-Enter`
+
+Toggling text display can be done from the package menu.
+
+## Filetype
+
+The plugin will only be usable for files with a *.pz* extension.
+
+## Contact
+
+Drop me an email at [guy@rumblesan.com](mailto:guy@rumblesan.com).
+
+## License
+
+BSD License.

@@ -1,7 +1,7 @@
 {
   "name": "improviz",
   "main": "./lib/improviz-atom",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "An atom plugin for using improviz",
   "keywords": [],
   "activationCommands": {

@@ -1,0 +1,33 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.line {
+  &.line-error {
+    color: red;
+  }
+}
+
+
+atom-panel div.improviz.console {
+  &.hidden{
+    display: none;
+  }
+  padding: 3px 10px;
+  overflow: hidden;
+  pre {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    padding: 0px 3px;
+    border-radius: 0px;
+    &:before {
+      content: "\00BB";
+      margin-right: 6px;
+    }
+  }
+  .error{
+    color: @text-color-error;
+  }
+}

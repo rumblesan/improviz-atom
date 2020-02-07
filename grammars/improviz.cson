@@ -3,4 +3,29 @@
   'improviz', 'pz'
 ]
 'name': 'Improviz'
-'patterns': []
+'patterns': [
+  {
+    'match': '\\b(if|elif|else|func|times|with)\\b'
+    'name': 'keyword'
+  },
+  {
+    'match': '\\b(null|time)\\b'
+    'name': 'constant'
+  },
+  {
+    'match': '\\b(([0-9]([0-9\']*[0-9])?\\.?[0-9]*([0-9\']*[0-9])?)|(\\.[0-9]([0-9\']*[0-9])?))\\b'
+    'name': 'constant.numeric'
+  },
+  {
+    'begin': '//'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment'
+    'end': '$'
+    'name': 'comment.line.double-slash'
+  },
+  {
+    'match': ':[a-zA-Z][a-zA-Z0-9]*'
+    'name': 'constant.symbol'
+  }
+]

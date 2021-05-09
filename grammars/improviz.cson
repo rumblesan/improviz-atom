@@ -5,7 +5,7 @@
 'name': 'Improviz'
 'patterns': [
   {
-    'match': '\\b(if|elif|else|func|times|with)\\b'
+    'match': '\\b(if|elif|else|func|times|with|pi)\\b'
     'name': 'keyword'
   },
   {
@@ -27,5 +27,9 @@
   {
     'match': ':[a-zA-Z][a-zA-Z0-9]*'
     'name': 'constant.symbol'
-  }
+  },
+  {
+    'match': '\\b(abs|animate|animationStyle|background|ceil|cos|cube|cylinder|debug|fill|floor|frames|length|line|log|material|materialVar|max|min|motionBlur|move|movePct|noFill|noStroke|paintOver|popScope|pushScope|random|randomSeed|rectangle|rotate|round|scale|sin|slideshow|sphere|sqrt|stroke|strokeSize|tan|texture|triangle)\\b'
+    'name': 'entity.name.function'
+  },
 ]

@@ -5,7 +5,7 @@
 'name': 'Improviz'
 'patterns': [
   {
-    'match': '\\b(if|elif|else|func|times|with)\\b'
+    'match': '\\b(if|elif|else|func|times|with|loop)\\b'
     'name': 'keyword'
   },
   {

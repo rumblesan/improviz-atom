@@ -25,6 +25,14 @@
     'name': 'comment.line.double-slash'
   },
   {
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment'
+    'end': '$'
+    'name': 'comment.line.hash'
+  },
+  {
     'match': ':[a-zA-Z][a-zA-Z0-9]*'
     'name': 'constant.symbol'
   },
